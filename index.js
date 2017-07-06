@@ -5,7 +5,7 @@ const app = new express();
 
 app.use(express.static('./view'));
 
-const port = 8080;
+const port = 8888;
 
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname, './view/index.html'));
